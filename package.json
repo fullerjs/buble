@@ -1,0 +1,22 @@
+{
+  "name": "fuller-buble",
+  "version": "0.4.0",
+  "license": "MIT",
+  "description": "Fuller tool: ES2015 compiler",
+  "keywords": [
+    "js",
+    "fuller",
+    "build",
+    "buble",
+    "automation"
+  ],
+  "author": "Alexey Novikov (http://2dubs.com)",
+  "dependencies": {
+    "buble": "^0.19.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:fullerjs/buble.git"
+  },
+  "main": "./index"
+}
