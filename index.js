@@ -2,7 +2,7 @@
 const buble = require('buble');
 
 module.exports = function(f, mat, options, next) {
-  if (!(f.env === 'production' || options.compile)) {
+  if (!options.compile) {
     next(null, mat);
     return;
   }
